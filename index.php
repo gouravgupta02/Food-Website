@@ -52,8 +52,8 @@
           </div>
       </form>
       <div class="link">
-        Already signed up?
-        <a href="login.php">Login now</a>
+        Already Signed Up?
+        <a href="login.php">Login Now</a>
       </div>
     </section>
   </div>
