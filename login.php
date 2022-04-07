@@ -2,7 +2,7 @@
   session_start();
   if(isset($_SESSION['unique id']))
   {
-    header("location: ../users.php");
+    header("location: ../foodwebsite.php");
   }
 ?>
 <!DOCTYPE html>
@@ -29,11 +29,10 @@
           <div class="field input">
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password">
-            <i class="fas fa-eye"></i>
           </div>
           
           <div class="field button">
-            <input type="submit" value="continue to chat">
+            <input type="submit" value="Let's Go">
           </div>
       </form>
       <div class="link">

@@ -15,7 +15,7 @@ continueBtn.onclick = () => {
       if (x.status === 200) {
         let data = x.response;
         if (data == "success") {
-          location.href = 'users.php';
+          location.href = 'foodwebsite.php';
         }
         else {
           errorText.textContent = data;
