@@ -1,9 +1,5 @@
 <?php
   session_start();
-  if(isset($_SESSION['unique id']))
-  {
-    header("location: ../users.php");
-  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
