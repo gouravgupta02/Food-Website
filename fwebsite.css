@@ -1,0 +1,16 @@
+body {
+    background: #B8FFF9;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+}
+a img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    height: 350px;
+    width: 1000px;
+    border-radius: 20%;
+    border: 1rem solid #85F4FF;
+}

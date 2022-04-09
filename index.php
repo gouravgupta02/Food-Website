@@ -14,11 +14,15 @@
   <title>Food Website</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudFlare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper">
     <section class="form signup">
       <header>Food Website</header>
+      <h3>Sign Up</h3>
       <form action="#" enctype="multipart/form-data" autocomplete="off">
       <!-- multipart form data is used for encoding input type="file" -->
       <!-- each value is sent as a block of data ("body part"), with a user agent-defined delimiter ("boundary")
