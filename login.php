@@ -25,23 +25,23 @@
       <h3>Login</h3>
       <form action="#">
         <div class="error-txt"></div>
+
+        <div class="field input">
+          <label>Email Address</label>
+          <input type="text" name="email" placeholder="Enter your email">
+        </div>
+        <div class="field input">
+          <label>Password</label>
+          <input type="password" name="password" placeholder="Enter your password">
+        </div>
         
-          <div class="field input">
-            <label>Email Address</label>
-            <input type="text" name="email" placeholder="Enter your email">
-          </div>
-          <div class="field input">
-            <label>Password</label>
-            <input type="password" name="password" placeholder="Enter your password">
-          </div>
-          
-          <div class="field button">
-            <input type="submit" value="Let's Go">
-          </div>
+        <div class="field button">
+          <input type="submit" value="Let's Go">
+        </div>
       </form>
       <div class="link">
-        Not yet signed up?
-        <a href="index.php">Signup now</a>
+        Not signed up yet?
+        <a href="index.php">Sign-Up Now</a>
       </div>
     </section>
   </div>

@@ -1,10 +1,22 @@
 body {
+    margin: 0;
+    border: none;
     background: #B8FFF9;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    color: #43919B;
+    font-size: 1.5rem;
+    margin: 10px;
 }
 h1 {
+    color: #43919B;
+    text-shadow: #FC0 1px 0 10px;
     font-size: 50px;
     font-family: 'Cookie', cursive;
     text-align: center;
+    margin: 0;
 }
 a img {
     display: block;
@@ -13,4 +25,51 @@ a img {
     width: 1000px;
     border-radius: 20%;
     border: 1rem solid #85F4FF;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+.food-website {
+    color : #00FFC6;
+    text-shadow: #FF8C32 1px 0 10px;
+    font-size: 5rem;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    background: #000;
+}
+.centre-button {
+    background: #00FFDD;
+    margin: 1rem auto 1rem auto;
+    border: 3px solid #3EDBF0;
+    border-radius: 5px;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    width: 15%;
+    text-align: center;
+}
+.centre-button a {
+    color: #fff;
+    text-decoration: none;
+}
+.logout-button{
+    background: #00FFDD;
+    margin: 1rem auto 1rem auto;
+    border: 3px solid #3EDBF0;
+    border-radius: 5px;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    width: 15%;
+    text-align: center;
+}
+.logout-button a {
+    color: #fff;
+    text-decoration: none;
+}
+.logout-area {
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    background: #000;
 }
