@@ -13,7 +13,7 @@
       $sql=mysqli_query($conn,"SELECT email from users where email='{$email}'");     //mysqli_query is used to make specified changes in database
       if(mysqli_num_rows($sql)>0)                                                    //if valid then email already exist or not
       {
-        echo "$email - This email already exist";
+        echo "$email - This email already exists";
       }
       else
       {
