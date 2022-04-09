@@ -18,11 +18,11 @@
     }
     else
     {
-      echo "email or password is incorrect";
+      echo "Either Email or Password is incorrect";
     }
   }
   else
   {
-    echo "all input fields are required";
+    echo "All input fields are required";
   }
 ?>
